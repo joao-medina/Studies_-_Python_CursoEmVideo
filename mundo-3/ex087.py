@@ -39,7 +39,6 @@ while contador < 3:
 print("=x" * 15)
 
 maior_linha.sort(reverse = True)
-
 print(f"A soma de todos os números pares digitados é {soma_par}.")
 print(f"A soma dos valores da terceira coluna é {soma_coluna}.")
 print(f"O maior valor da segunda linha é {maior_linha[0]}.")

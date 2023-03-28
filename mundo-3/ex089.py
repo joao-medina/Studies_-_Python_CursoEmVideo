@@ -16,13 +16,12 @@ for c in range(0, numero_alunos):
 print("=" * 21)
 print(" "* 2,"Boletim Escolar")
 print("=" * 21)
-print("No.    Nome   Média")
+print("  No. Nome     Média")
 print("-"* 21)
 
 for posicao, valor in enumerate(boletim):
-    print(posicao + 1, end= "      ")
-    print(valor[0], end="   ")
-    print(valor[2])
+    print("{:^6} {:^6} {:^6}".format(posicao + 1, valor[0], valor[2]))
+
 
 while True:
     continuar = int(input("Qual aluno você deseja ver a nota? (0) para encerrar.\n"))
