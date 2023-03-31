@@ -1,7 +1,8 @@
 def titulo(txt):
-    print("="*40)
-    print("{:^40}".format(txt).upper())
-    print("="*40)
+    linha = len(txt) * 3
+    print("=" * linha)
+    print(" " * (len(txt)-1), f"{txt}".upper(), " "*len(txt))
+    print("=" * linha)
 
 texto = titulo(input("Insira um texto para virar um título: "))
 
