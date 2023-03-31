@@ -12,4 +12,4 @@ def fat(fatorial, show = False):
     return fatorial
 
 fatorial = int(input("Número para ver o fatorial: "))
-print(fat(fatorial, show=False))
+print(fat(fatorial, show=True))
